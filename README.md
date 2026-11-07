@@ -6,10 +6,10 @@
 
 <br />
 
-[![Release](https://img.shields.io/badge/version-v0.2.0-8b5cf6?style=flat)](https://github.com/novasystems-dev/orbit/releases)
-[![Nova](https://img.shields.io/badge/nova-systems%20lang-38bdf8?style=flat)](https://github.com/novasystems-dev/nova)
-[![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-a855f7?style=flat)](LICENSE)
-[![Language](https://img.shields.io/badge/written%20in-100%25%20pure%20nova-ec4899?style=flat)](src/main.nova)
+[![Release](https://img.shields.io/badge/version-v0.2.0-8b5cf6?style=flat&labelColor=0f172a&logo=semver&logoColor=white)](https://github.com/novasystems-dev/orbit/releases)
+[![Nova](https://img.shields.io/badge/language-Nova_0.3.0-38bdf8?style=flat&labelColor=0f172a&logo=rust&logoColor=white)](https://github.com/novasystems-dev/nova)
+[![License](https://img.shields.io/badge/license-PolyForm-a855f7?style=flat&labelColor=0f172a&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Source](https://img.shields.io/badge/source-100%25%20pure%20nova-ec4899?style=flat&labelColor=0f172a&logo=github&logoColor=white)](src/main.nova)
 
 <br />
 
