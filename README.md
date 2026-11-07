@@ -1,18 +1,19 @@
-<p align="center">
-  <img src="assets/logo.svg" alt="Orbit Logo" width="160" />
-</p>
+<div align="center">
 
-<h1 align="center">Orbit Package Manager</h1>
+# 🪐 Orbit Package Manager
 
-<p align="center">
-  <b>The Official Package Manager & Build Toolchain for the Nova Systems Programming Language</b>
-</p>
+**The Official Package Manager & Build Toolchain for the Nova Systems Programming Language**
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blueviolet?style=for-the-badge" alt="License" /></a>
-  <a href="https://github.com/novasystems-dev/nova"><img src="https://img.shields.io/badge/Nova-Systems%20Lang-00F0FF?style=for-the-badge" alt="Nova" /></a>
-  <img src="https://img.shields.io/badge/Version-v0.2.0-FF548F?style=for-the-badge" alt="Version" />
-</p>
+<br />
+
+[![Release](https://img.shields.io/badge/version-v0.2.0-8b5cf6?style=flat)](https://github.com/novasystems-dev/orbit/releases)
+[![Nova](https://img.shields.io/badge/nova-systems%20lang-38bdf8?style=flat)](https://github.com/novasystems-dev/nova)
+[![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-a855f7?style=flat)](LICENSE)
+[![Language](https://img.shields.io/badge/written%20in-100%25%20pure%20nova-ec4899?style=flat)](src/main.nova)
+
+<br />
+
+</div>
 
 ---
 
