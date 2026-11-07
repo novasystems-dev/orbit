@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="assets/branding/logo.svg" width="260" alt="Nova Systems Logo" />
+
+
 # 🪐 Orbit Package Manager
 
 **The Official Package Manager & Build Toolchain for the Nova Systems Programming Language**
