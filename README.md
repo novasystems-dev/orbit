@@ -1,42 +1,60 @@
-# Orbit — The Official Package Manager for Nova Systems Language
+<p align="center">
+  <img src="assets/logo.svg" alt="Orbit Logo" width="160" />
+</p>
 
-> **Ultra-Fast | Deterministic Dependency Graphs | Capability Sandboxing | Zero-Cost In-Place Resolution**
+<h1 align="center">Orbit Package Manager</h1>
 
-Orbit is the official build system and package manager for the **Nova Systems Programming Language**, modeled after the precision and ergonomics of Rust's Cargo and Go's module system.
+<p align="center">
+  <b>The Official Package Manager & Build Toolchain for the Nova Systems Programming Language</b>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blueviolet?style=for-the-badge" alt="License" /></a>
+  <a href="https://github.com/novasystems-dev/nova"><img src="https://img.shields.io/badge/Nova-Systems%20Lang-00F0FF?style=for-the-badge" alt="Nova" /></a>
+  <img src="https://img.shields.io/badge/Version-v0.2.0-FF548F?style=for-the-badge" alt="Version" />
+</p>
 
 ---
 
-## Key Features
+## 🚀 Overview
 
-- **Blazing Fast**: Written in 100% pure Nova, compiling to native binaries in milliseconds.
-- **Deterministic Lockfiles**: `Orbit.lock` tracks exact SHA-256 cryptographic hashes for reproducible zero-tamper builds.
-- **Security & Capability Auditing**: `orbit audit` inspects packages for memory safety, isolation flags, and bare-metal pointer dereferences.
-- **Workspace Support**: Multi-crate monorepos with inherited dependencies and workspace-wide build matrices.
+**Orbit** is the official package manager, dependency resolver, and build orchestration engine for the **Nova Systems Programming Language**. Written in 100% Pure Nova, Orbit provides:
+
+- Deterministic dependency resolution via `Orbit.lock` cryptographic hash pinning.
+- One-command project scaffolding (`orbit new <project>`, `orbit init`).
+- Zero-overhead compilation and running (`orbit build`, `orbit run`).
+- Integrated test runner (`orbit test`).
+- Capability-based security auditing (`orbit audit`).
+- Remote package registry search and publishing (`orbit search`, `orbit publish`).
+- Local vendoring of dependencies (`orbit vendor`).
+- Dependency visualization (`orbit tree`).
 
 ---
 
-## Quickstart
+## 🛠️ Usage
 
 ```bash
 # Create a new Nova project
 orbit new my_service
 
-# Build executable
+# Build and optimize
 orbit build
 
-# Run application
+# Execute package binary
 orbit run
 
-# Audit dependency capability security
-orbit audit
+# Run test suite
+orbit test
 
-# Generate cryptographic lockfile
-orbit lock
+# Inspect dependency tree
+orbit tree
+
+# Vendor dependencies locally
+orbit vendor
 ```
 
 ---
 
-## License
+## ⚖️ License
 
-PolyForm Noncommercial License 1.0.0. Copyright (c) 2026 Fyew999 (Nova Systems).
-Permits free personal, educational, and open-source use, modification, and recoding. Commercial sale, commercial distribution, or closed-source incorporation is strictly prohibited without a commercial license. See [LICENSE](LICENSE) for details.
+Orbit is released under the **PolyForm Noncommercial License 1.0.0**. Copyright (c) 2026 Fyew999 (Nova Systems).
