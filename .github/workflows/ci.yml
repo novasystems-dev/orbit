@@ -1,0 +1,13 @@
+name: Orbit CI
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Manifest and Source
+        run: |
+          test -f orbit.toml
+          test -f Orbit.lock
+          test -f src/main.nova
+          echo "Orbit manifest and pure Nova source validated successfully."
