@@ -1,12 +1,12 @@
 [package]
 name = "orbit"
-version = "0.31.02"
+version = "0.31.05"
 edition = "2026"
 authors = ["Nova Architecture & Systems Team"]
 description = "Official Package Manager & Build Toolchain for Nova Systems"
 
 [dependencies]
-std = "0.31.02"
+std = "0.31.05"
 
 [capabilities]
 unsafe_hardware = true
